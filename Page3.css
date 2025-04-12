@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    color: #111;
+    background-color: #e3e1e1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+.cabecalho {
+    background-color: #f1c40f;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.logo img {
+    height: 50px;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+  
+.conteudo {
+    flex: 1;
+    padding: 40px;
+}
+  
+.contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.texto-contato {
+    max-width: 600px;
+}
+  
+.texto-contato h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+  
+.texto-contato p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+  
+.icones {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+  
+.rede {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.rede img {
+    width: 60px;
+    height: 60px;
+}
+  
+.botao {
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+  
+.insta {
+    background: linear-gradient(45deg, #f58529, #dd2a7b);
+}
+  
+.whats {
+    background-color: #25d366;
+}
+  
+.email {
+    background-color: #d9534f;
+}
+  
+.ilustracao img {
+    max-width: 550px;
+    height: auto;
+    border-collapse: collapse;
+}
+  
+.rodape {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+  

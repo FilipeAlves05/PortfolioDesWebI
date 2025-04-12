@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    color: #111;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+.cabecalho {
+    background-color: #f1c40f;
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.logo img {
+    height: 50px;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+  
+main {
+    flex: 1;
+}
+  
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 30px;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+  
+.texto {
+    flex: 1;
+    min-width: 300px;
+}
+  
+.texto h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+  
+.texto p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+  
+.ilustracao img {
+    max-width: 550px;
+    height: auto;
+}
+  
+.artista {
+    background-image: url(images/ilustracao.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #e3e1e1;
+    text-align: left;
+    padding: 350px 40px;
+    
+}
+  
+.conteudo-artista {
+    max-width: 700px;
+}
+  
+.artista h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+  
+.artista p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+  
+.rodape {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
+  
